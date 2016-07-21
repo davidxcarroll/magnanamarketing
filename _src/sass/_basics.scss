@@ -1,0 +1,36 @@
+// Native
+// ============================================================
+
+html {
+	text-rendering: optimizeLegibility;
+	font-smoothing: antialiased;
+}
+
+*,
+a {
+	transition: all .15s ease-in-out;
+}
+
+body {
+	color: $black;
+}
+
+a {
+	color: $purple;
+	&:hover {
+		color: lighten($purple,10);
+	}
+	&:focus {
+		outline: none;
+	}
+}
+
+button,
+input[type="submit"] {
+	font-family: $font-body;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	border-radius: .2em;
+}
+
+button:hover { cursor: pointer; }

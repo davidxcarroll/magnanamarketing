@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="220px" height="220px" viewBox="0 0 220 220" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39 (31667) - http://www.bohemiancoding.com/sketch -->
+    <title>themes/banana-trump</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M35.3480934,61.9202245 C32.0110934,58.7612245 28.9840934,55.4042245 26.2660934,51.8852245 C20.3140934,44.1772245 8.04809337,48.6072245 8.34509337,58.3412245 C8.99209337,79.5682245 17.4140934,100.601225 33.6160934,116.803225 C67.2760934,150.464225 122.203093,150.464225 155.863093,116.803225 C172.065093,100.601225 180.487093,79.5682245 181.134093,58.3412245 C181.431093,48.6072245 169.165093,44.1782245 163.212093,51.8852245 C160.494093,55.4032245 157.468093,58.7602245 154.132093,61.9192245 C121.008093,93.2832245 68.4730934,93.2832245 35.3480934,61.9202245 Z" id="path-1"></path>
+        <path d="M103.000001,-1.39266376e-12 C103.000001,11 112.000001,43 28.0000003,31 C-56.0000002,19 73.0000014,91 123.000001,67 C173.000001,43 179.000001,30 166.000001,11.0000003 C153.000001,-7.99999946 141.000001,11.0000006 103.000001,-1.39266376e-12 Z" id="path-3"></path>
+        <path d="M103.000001,-1.8189894e-12 C103.000001,11 112.000001,43 28.0000003,31" id="path-5"></path>
+        <path d="M14.1207267,125.80161 C13.5759659,89.6763236 37.1836048,60.382755 37.1836048,60.382755 C37.1836048,60.382755 45.952508,69.1900592 56.1828985,64.07614 C66.413289,58.9622207 65.5363985,49.5867074 65.5363969,38.506552 C65.5363969,38.506552 81.3365479,47.9104511 93.1185532,53.4044887 C104.900558,58.8985264 132.452168,67.2603608 124.874529,53.5287828 C75.9353764,-35.1547477 6.41348081,7.45635948 19.9362158,41.3830326 C-23.8977717,62.5918625 30.55641,137.879208 0.403966184,114.991872 C3.00229675,123.238758 8.32133164,126.407439 14.1207267,125.80161 Z" id="path-7"></path>
+        <mask id="mask-9" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-4" y="-4" width="133.769257" height="133.076051">
+            <rect x="-3.59603382" y="-3.20217152" width="133.769257" height="133.076051" fill="white"></rect>
+            <use xlink:href="#path-7" fill="black"></use>
+        </mask>
+        <path d="M-9.09494702e-13,14 C7,13.9999998 10,17 15,21 C20,25 25,21 23,17 C21,13 21,11 21,11 C21,11 22.0000007,5 21,7 C19.9999993,9 16.9999993,9 15,7 C13.0000007,5 10,10.9999998 -9.09494702e-13,14 Z" id="path-10"></path>
+        <mask id="mask-11" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="23.4515425" height="16.0650175" fill="white">
+            <use xlink:href="#path-10"></use>
+        </mask>
+        <path d="M15,16.7999609 C17.4999548,16.2498318 20,16.7999609 20,16.7999609 C20,16.7999609 20,17.8999805 19.1666667,19 C18.3333333,19 15.8333333,17.3499707 15,16.7999609 Z" id="path-12"></path>
+        <mask id="mask-13" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-2" y="-2" width="9" height="6.4445409">
+            <rect x="13" y="14.5554591" width="9" height="6.4445409" fill="white"></rect>
+            <use xlink:href="#path-12" fill="black"></use>
+        </mask>
+        <path d="M14.1952296,8.26991304 C16.6872495,13.592861 20.543386,10.1676138 20.543386,10.1676138 C20.543386,10.1676138 18.3651913,14.8210105 14.4674248,13.2993729 C10.5696583,11.7777354 12.1151752,6.43113168 7.39146353,6.43113202 C2.66775187,6.43113236 1.34588679,10.9101875 1.34588679,10.9101875 C1.34588679,10.9101875 2.78431874,1.61172729 6.89719802,1.61172728 C11.0100773,1.61172728 12.5158289,4.68271743 14.1952296,8.26991304 Z" id="path-14"></path>
+        <mask id="mask-15" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-3" y="-3" width="25.1974992" height="17.9933584">
+            <rect x="-1.65411321" y="-1.38827272" width="25.1974992" height="17.9933584" fill="white"></rect>
+            <use xlink:href="#path-14" fill="black"></use>
+        </mask>
+        <path d="M22.094763,9.00236853 C27.0758813,13.8135281 33.3669582,10.0318284 33.3669582,10.0318284 C33.3669582,10.0318284 30.5512507,16.8284885 22.3669582,14.0318284 C18.8757813,12.838856 16.3669582,8.0318284 10.3669582,8.0318284 C4.36695816,8.0318284 1.36695816,13.0318284 1.36695816,13.0318284 C1.36695816,13.0318284 1.00942246,4.77525751 7.90307715,3.55972002 C9.87269234,3.21242367 15.6729194,2.79964204 22.094763,9.00236853 Z" id="path-16"></path>
+        <mask id="mask-17" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-3" y="-3" width="38.0031579" height="17.3162256">
+            <rect x="-1.63619971" y="0.390690669" width="38.0031579" height="17.3162256" fill="white"></rect>
+            <use xlink:href="#path-16" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="themes/banana-trump">
+            <g id="body" transform="translate(11.000000, 21.000000)">
+                <path d="M194.328056,70.6584896 C194.501056,64.7644896 191.270056,59.6584896 185.891056,57.3334896 C180.577056,55.0364896 174.534056,56.1624896 170.495056,60.2004896 C170.051056,60.6454896 169.627056,61.1274896 169.235056,61.6354896 C167.086056,64.4174896 164.726056,67.0984896 162.222056,69.6024896 C161.681056,70.1444896 161.130056,70.6794896 160.570056,71.2094896 C145.296056,85.6724896 125.180056,93.6374896 103.929056,93.6374896 C82.6770564,93.6374896 62.5620564,85.6734896 47.2870564,71.2114896 C44.1510564,68.2424896 41.2360564,65.0204896 38.6210564,61.6354896 C36.1030564,58.3754896 32.5180564,56.4394896 28.5250564,56.1834896 C24.4450564,55.9224896 20.4460564,57.4304896 17.5560564,60.3204896 C14.8420564,63.0324896 13.4150564,66.7044896 13.5350564,70.6584896 L13.5350564,80.6584896 C14.2390564,103.75649 23.6290564,125.47949 39.9760564,141.82649 C57.0100564,158.86149 79.7220564,168.24249 103.928056,168.24249 C128.133056,168.24249 150.845056,158.86149 167.879056,141.82749 C184.227056,125.47949 193.617056,103.75649 194.321056,80.6584896 L194.328056,70.6584896 Z" id="base" fill="#5C5768" transform="translate(103.931366, 112.198470) rotate(-315.000000) translate(-103.931366, -112.198470) "></path>
+                <g id="nan" transform="translate(12.000000, 13.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#FFFF00" transform="translate(94.739593, 95.004162) rotate(-315.000000) translate(-94.739593, -95.004162) " xlink:href="#path-1"></use>
+                    <path d="M36.3152378,91.9254141 C24.1492378,79.7594141 16.6292378,64.7144141 13.7272378,48.9854141 C10.2762378,50.5074141 6.22702419,53.9094141 6.36602419,58.4844141 C7.01302419,79.7114141 16.143131,101.450521 32.344131,117.653521 C66.004131,151.314521 122.346345,151.314521 156.006345,117.653521 C172.208345,101.450521 181.337451,79.7114141 181.984451,58.4844141 C182.123451,53.9094141 178.074238,50.5074141 174.623238,48.9854141 C171.721238,64.7144141 164.201238,79.7594141 152.035238,91.9254141 C120.080238,123.880414 68.2702378,123.880414 36.3152378,91.9254141 Z" id="yellow-shade" fill="#FFD500" mask="url(#mask-2)" transform="translate(94.175238, 95.942343) rotate(-315.000000) translate(-94.175238, -95.942343) "></path>
+                    <g id="suit" mask="url(#mask-2)">
+                        <g transform="translate(25.000000, 99.000000)">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <use id="suit" stroke="none" fill="#F5F5F5" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            <path d="M87.3657626,43.6614145 C87.3657626,43.6614145 68.3252173,64.5938013 52.7175311,78.309646 C135.449022,73.3599008 142.084207,10.2952438 142.731207,-10.9317562 C142.870207,-15.5067562 143.142665,-18.9087562 139.691665,-20.4307562 C136.789665,-4.70175621 136.538557,3.45974899 115.650039,25.2766412 C105.113441,36.2815307 87.3657626,43.6614145 87.3657626,43.6614145 Z" id="suit-shad" stroke="none" fill="#6B77B3" fill-rule="evenodd" mask="url(#mask-4)" transform="translate(97.759457, 28.939445) rotate(-315.000000) translate(-97.759457, -28.939445) "></path>
+                            <path d="M79,33 C120,44 141,41 162,24" id="Path-2944" stroke="#5C5768" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" mask="url(#mask-4)"></path>
+                            <polygon id="Path-2946" stroke="#5C5768" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#C6602E" fill-rule="evenodd" mask="url(#mask-4)" points="102.666973 31.334867 100 18 110.943914 13.7440333 115 20 113 26"></polygon>
+                            <polyline id="Path-2946" stroke="#5C5768" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" mask="url(#mask-4)" points="104 38 100 18 118 11"></polyline>
+                            <path d="M71,33 L78,44 L87,41 L90,47 C90,47 105,47 120,40" id="Path-2945" stroke="#5C5768" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" mask="url(#mask-4)"></path>
+                            <mask id="mask-6" fill="white">
+                                <use xlink:href="#path-5"></use>
+                            </mask>
+                            <use id="line" stroke="#5C5768" stroke-width="4" fill="none" xlink:href="#path-5"></use>
+                        </g>
+                    </g>
+                </g>
+                <path d="M152,132 L150,138 C150,138 185,147 183,118 C171,133 152,132 152,132 Z" id="Path-2946" stroke="#5C5768" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#C6602E"></path>
+                <path d="M161,96 L155,77 L175,82 C175,82 206,111 177,135 C188,104 161,96 161,96 Z" id="Path-2946" stroke="#5C5768" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#FF6619"></path>
+            </g>
+            <g id="hair" transform="translate(80.211714, 77.213828) rotate(-25.000000) translate(-80.211714, -77.213828) translate(16.711714, 14.213828)">
+                <g id="base" transform="translate(0.000000, -0.000000)">
+                    <mask id="mask-8" fill="white">
+                        <use xlink:href="#path-7"></use>
+                    </mask>
+                    <g id="Mask">
+                        <use fill="#FFD500" fill-rule="evenodd" xlink:href="#path-7"></use>
+                        <use stroke="#5C5768" mask="url(#mask-9)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" xlink:href="#path-7"></use>
+                    </g>
+                    <path d="M67.7419346,41.5711767 C57.9509277,27.0751953 21.5397619,13.2973021 18.2858372,41.5711764 C4.6060021,47.526909 3.71408,72.4002847 18.2858369,114.503297 C32.8575939,156.606309 44.2250446,77.5831153 54.3402928,75.0434935 C74.3352561,70.023385 77.5329415,56.067158 67.7419346,41.5711767 Z" id="shad" fill="#FFB726" mask="url(#mask-8)"></path>
+                </g>
+                <path d="M38.1509839,63.0406071 C32.3050473,57.9266895 29.3820791,53.380985 24.1207362,59.9154352" id="Path-2918" stroke="#5C5768" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M27.390723,44.9166566 C40.3132968,36.5046381 44.1588974,52.5128217 51.2138525,49.0184937 C58.2688075,45.5241656 57.2932512,35.1043566 57.2932512,35.1043566" id="Path-2919" stroke="#5C5768" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M31.3161706,51.0666342 C40.6186532,47.6082268 43.6429324,60.1248306 52.7047539,57.3960949 C61.7665754,54.6673591 62.3211318,37.3701258 62.3211318,37.3701258" id="Path-2919" stroke="#5C5768" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M92.9100755,28.5546732 C103.507854,35.8526812 100.643907,45.640317 87.7805313,43.5110979" id="Path-2938" stroke="#5C5768" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(93.588497, 36.181152) rotate(-340.000000) translate(-93.588497, -36.181152) "></path>
+                <path d="M79.6363172,18.4297925 C86.6181347,24.4519216 86.5976,33.0728468 81.8028807,36.8335802" id="Path-2939" stroke="#5C5768" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <g id="bangs" transform="translate(29.000000, 19.000000)">
+                    <path d="M80.0045965,26.3649794 C77.7131689,40.7437635 30.8069234,6.82358001 22.5456569,2.8815709 C10.5816369,-2.82727243 -1.61929755,2.647047 1.34391089,13.2352077 C4.24116741,4.27644889 23.2736309,13.1514326 32.8203981,18.7065407 C56.7969954,32.6581313 89.4951742,46.2378012 80.0045965,26.3649794 Z" id="Path-2936" fill="#FFFFB3"></path>
+                    <path d="M77.7082877,24.6698713 C84.2356543,33.8548459 71.6084189,30.1734247 61.1765931,24.6698719 C50.7447672,19.1663192 30.6793191,4.92204295 22.968275,1.97526332 C9.8573474,-3.03508468 -1.61929755,2.647047 1.34391089,13.2352077 C8.28901694,5.06061419 22.3673219,12.4942901 39.6482424,22.9937949 C56.929163,33.4932998 60.5543947,34.949248 71.8527045,39.1143601" id="Path-2936" stroke="#5C5768" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+            </g>
+            <g id="mouth" transform="translate(110.000000, 117.000000)">
+                <path d="M15.9356941,42.7266746 C44.0000003,50.9999999 46.0000003,25.9999999 38.0000003,19.9999999" id="chin" stroke="#5C5768" stroke-width="4" stroke-linecap="round" fill="#FFFF00"></path>
+                <path d="M3,5 C9,3 9,-1.99999999 18,2 C28,-1.00000002 23,9.99999974 24,12 C25,14.0000003 35,24.0000002 25,29.0000002 C15,34.0000002 9,23.0000002 2,23.0000002" id="lips-outer" stroke="#5C5768" stroke-width="3" stroke-linecap="round" fill="#FFFF00"></path>
+                <path d="M25,12 C28,17.0000003 34.9688996,26.0113094 24,30.0000002 C13,34.0000002 9,23.0000002 2,23.0000002" id="lip-bottom" stroke="#5C5768" stroke-width="4" stroke-linecap="round"></path>
+                <use id="lips-inner" stroke="#5C5768" mask="url(#mask-11)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="#C6602E" xlink:href="#path-10"></use>
+                <g id="teeth">
+                    <use fill="#FFFFB3" fill-rule="evenodd" xlink:href="#path-12"></use>
+                    <use stroke="#5C5768" mask="url(#mask-13)" stroke-width="4" xlink:href="#path-12"></use>
+                </g>
+            </g>
+            <g id="eyes" transform="translate(63.000000, 84.000000)">
+                <g id="eye-R" transform="translate(53.000000, 13.000000) scale(-1, 1) translate(-53.000000, -13.000000) translate(42.000000, 0.000000)">
+                    <path d="M3.6635905,23.8022276 C6.03985759,22.672926 8.74372201,19.6811126 14.9651274,22.0921269" id="lid-bottom" stroke="#5C5768" stroke-width="4" stroke-linecap="round" transform="translate(9.314359, 22.489955) scale(-1, -1) rotate(-20.000000) translate(-9.314359, -22.489955) "></path>
+                    <path d="M3,19 C7,16.3333333 10,16.3333334 14,19" id="eye" stroke="#5C5768" stroke-width="4" stroke-linecap="round" transform="translate(8.500000, 18.000000) scale(-1, 1) translate(-8.500000, -18.000000) "></path>
+                    <g id="eyebrow" transform="translate(10.944636, 7.608406) rotate(-350.000000) translate(-10.944636, -7.608406) ">
+                        <use fill="#FFB726" fill-rule="evenodd" xlink:href="#path-14"></use>
+                        <use stroke="#5C5768" mask="url(#mask-15)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" xlink:href="#path-14"></use>
+                    </g>
+                </g>
+                <g id="eye-L">
+                    <path d="M13.0378453,25.2146312 C15.4141124,24.0853295 20.3393822,20.8378638 29.0378453,25.2146312" id="lid-bottom" stroke="#5C5768" stroke-width="4" stroke-linecap="round" transform="translate(21.037845, 24.103979) scale(-1, -1) rotate(-20.000000) translate(-21.037845, -24.103979) "></path>
+                    <path d="M12,20 C16,17.3333333 24,17.3333334 28,20" id="eye" stroke="#5C5768" stroke-width="4" stroke-linecap="round" transform="translate(20.000000, 19.000000) scale(-1, 1) translate(-20.000000, -19.000000) "></path>
+                    <g id="eyebrow" transform="translate(17.365379, 9.048803) rotate(-350.000000) translate(-17.365379, -9.048803) ">
+                        <use fill="#FFB726" fill-rule="evenodd" xlink:href="#path-16"></use>
+                        <use stroke="#5C5768" mask="url(#mask-17)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" xlink:href="#path-16"></use>
+                    </g>
+                    <path d="M5,25 L9,23" id="Path-2911" stroke="#5C5768" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M2,20 L7,20" id="Path-2911" stroke="#5C5768" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

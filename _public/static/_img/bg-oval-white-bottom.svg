@@ -1,0 +1,10 @@
+<svg width="100%" height="100%" viewBox="0 0 1440 112" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <rect id="path-1" x="0" y="0" width="100%" height="100%"></rect>
+    </defs>
+    <mask id="mask-2" fill="white">
+        <use xlink:href="#path-1"></use>
+    </mask>
+    <ellipse id="bg-oval" fill="#F5F5F5" mask="url(#mask-2)" cx="720" cy="-190" rx="1047" ry="302"></ellipse>
+    <ellipse id="bg-oval" fill="#FFFFFF" mask="url(#mask-2)" cx="720" cy="-206" rx="997" ry="307"></ellipse>
+</svg>
