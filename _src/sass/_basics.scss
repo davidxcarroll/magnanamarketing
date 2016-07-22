@@ -34,3 +34,11 @@ input[type="submit"] {
 }
 
 button:hover { cursor: pointer; }
+
+hr {
+	@include pad(0);
+	border-left: none;
+	border-top: none;
+	border-right: none;
+	border-bottom: 4px solid $grey;
+}

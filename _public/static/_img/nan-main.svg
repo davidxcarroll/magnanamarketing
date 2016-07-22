@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="451px" height="489px" viewBox="0 0 451 489" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="451px" height="542px" viewBox="0 0 451 542" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 39 (31667) - http://www.bohemiancoding.com/sketch -->
     <title>main nan</title>
     <desc>Created with Sketch.</desc>
@@ -31,6 +31,7 @@
                             <ellipse id="Oval-444" stroke="#5C5768" stroke-width="10.984127" fill="#FF6619" mask="url(#mask-2)" cx="72.7698413" cy="83.121547" rx="37.0714286" ry="24.7127072"></ellipse>
                         </g>
                     </g>
+                    <ellipse id="shadow" fill-opacity="0.05" fill="#5C5768" cx="324.5" cy="527" rx="136.5" ry="15"></ellipse>
                 </g>
             </g>
         </g>

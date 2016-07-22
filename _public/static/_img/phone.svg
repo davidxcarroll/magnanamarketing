@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="315px" height="643px" viewBox="0 0 315 643" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39 (31667) - http://www.bohemiancoding.com/sketch -->
+    <title>phone</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10,54.9977664 C10,24.6233388 34.6205732,0 64.990387,0 L260.009613,0 C290.379965,0 315,24.6252341 315,54.9977664 L315,586.002234 C315,616.376661 290.379427,641 260.009613,641 L64.990387,641 C34.6200349,641 10,616.374766 10,586.002234 L10,54.9977664 Z M30,93.0044951 C30,91.3451583 31.3470408,90 32.9988608,90 L292.001139,90 C293.657364,90 295,91.3429694 295,93.0044951 L295,547.995505 C295,549.654842 293.652959,551 292.001139,551 L32.9988608,551 C31.3426357,551 30,549.657031 30,547.995505 L30,93.0044951 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.360900148   0 0 0 0 0.342265141   0 0 0 0 0.406808036  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="-5" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.847   0 0 0 0 0.847   0 0 0 0 0.847  0 0 0 1 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="305" height="641" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-5" x="30" y="90" width="265" height="461" rx="3"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="2.1968254" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="-2" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.360900148   0 0 0 0 0.342265141   0 0 0 0 0.406808036  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-7" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="265" height="461" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <circle id="path-8" cx="163" cy="590" r="27"></circle>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.360900148   0 0 0 0 0.342265141   0 0 0 0 0.406808036  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.847   0 0 0 0 0.847   0 0 0 0 0.847  0 0 0 1 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feOffset dx="0" dy="-5" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <mask id="mask-11" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="54" height="54" fill="white">
+            <use xlink:href="#path-8"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-381.000000, -104.000000)">
+            <g id="phone" transform="translate(381.000000, 104.000000)">
+                <path d="M0,54.9977664 C0,24.6233388 24.6205732,0 54.990387,0 L250.009613,0 C280.379965,0 305,24.6252341 305,54.9977664 L305,586.002234 C305,616.376661 280.379427,641 250.009613,641 L54.990387,641 C24.6200349,641 0,616.374766 0,586.002234 L0,54.9977664 Z M30,93.0044951 C30,91.3451583 31.3470408,90 32.9988608,90 L292.001139,90 C293.657364,90 295,91.3429694 295,93.0044951 L295,547.995505 C295,549.654842 293.652959,551 292.001139,551 L32.9988608,551 C31.3426357,551 30,549.657031 30,547.995505 L30,93.0044951 Z" id="back" fill="#5C5768"></path>
+                <g id="front">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#F5F5F5" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                    <use stroke="#5C5768" mask="url(#mask-4)" stroke-width="4.39365079" xlink:href="#path-1"></use>
+                </g>
+                <g id="border">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                    <use stroke="#5C5768" mask="url(#mask-7)" stroke-width="4.39365079" xlink:href="#path-5"></use>
+                </g>
+                <g id="home-button">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                    <use fill="#F0F0F0" fill-rule="evenodd" xlink:href="#path-8"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-8"></use>
+                    <use stroke="#5C5768" mask="url(#mask-11)" stroke-width="4.39365079" xlink:href="#path-8"></use>
+                </g>
+                <circle id="dot" fill="#5C5768" cx="163" cy="33" r="6"></circle>
+                <circle id="dot" fill="#5C5768" cx="122" cy="57" r="4"></circle>
+                <rect id="slot" fill="#5C5768" x="139" y="54" width="49" height="6" rx="3"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

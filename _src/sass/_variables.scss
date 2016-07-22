@@ -26,6 +26,11 @@ $mobile-xs:    320px;
   src: url("../_fonts/Sentinel-Semibold.otf");
 }
 
+@font-face {
+  font-family: "Avenir";
+  src: url("../_fonts/AvenirLTStd-Heavy.otf");
+}
+
 $font-head:    'Novecento', sans-serif;
 $font-tile:    'Sentinel', serif;
-$font-body:    'Lato', sans-serif;
+$font-body:    'Avenir', sans-serif;

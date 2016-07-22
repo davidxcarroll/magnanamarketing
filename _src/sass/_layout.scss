@@ -36,6 +36,18 @@
 	}
 }
 
+.hero-phone-title {
+	position: absolute;
+	right: 0;
+	@include media(min-width $tablet) {
+		@include size(25em null);
+		bottom: 10em;
+	}
+	@include media(max-width $tablet) {
+		bottom: 2em;
+	}
+}
+
 .hero .content {
 	position: relative;
 	z-index: 1;
@@ -54,38 +66,54 @@
 	}
 }
 
+.hero .content-phone {
+	position: relative;
+	z-index: 1;
+	@include margin(null auto -4em);
+	@include media(min-width $tablet) {
+		@include size(48em null);
+		@include padding(.2em null null);
+	}
+	@include media(max-width $tablet min-width $mobile) {
+		@include size(22em null);
+		@include padding(5em null null);
+	}
+	@include media(max-width $mobile) {
+		@include size(18em null);
+		@include padding(4em null null);
+	}
+}
+
+.hero-phone {
+	position: relative;
+}
+
+.hero-phone-screenshot {
+	@include size(263px auto);
+	position: absolute;
+	top: 92px;
+	left: 31px;
+	z-index: -1;
+}
+
 .hero-top .inner {
 	@include padding(null null 0);
 }
 
 .hero-bottom {
-	@include media(min-width $tablet) {
-		@include padding(5em null 2em);
-	}
-	@include media(max-width $tablet min-width $mobile) {
-		@include padding(2em null 1em);
-	}
-	@include media(max-width $mobile) {
-		@include padding(1em null);
-	}
+	@include padding(5em null 2em);
 }
 
 .hero .content h1 {
 	@include pad(0);
 	@include media(min-width $tablet) {
 		@include margin(null null .2em);
-		font-size: 5em;
-		line-height: 1em;
 	}
 	@include media(max-width $tablet min-width $mobile) {
 		@include margin(null null .4em);
-		font-size: 3em;
-		line-height: .5em;
 	}
 	@include media(max-width $mobile) {
 		@include margin(null null .2em);
-		font-size: 2.5em;
-		line-height: 1em;
 	}
 }
 
@@ -177,13 +205,41 @@
 
 .nan-themes {
 	@include outer-container;
-	@include pad(2em null);
-	max-width: 96%;
+	position: relative;
 	li {
-		@include span-columns(2.4);
-		@include omega(5n);
+		@extend .center;
 		img {
 			@include size(100%);
 		}
+	}
+	@include media(min-width $mobile) {
+		max-width: 96%;
+		li {
+			@include span-columns(2.4);
+			@include omega(5n);
+		}
+	}
+	@include media(max-width $mobile) {
+		@include fill-parent;
+		li {
+			@include span-columns(6);
+			@include omega(2n);
+		}
+	}
+}
+
+.theme-feature {
+	@include size(42em);
+	@include margin(null auto);
+	border-radius: 100em;
+	box-shadow: inset 0 .2em 0 0 rgba(92,87,104,.2);
+	background-image: 
+		linear-gradient(to bottom, rgba(92,87,104,.2), rgba(92,87,104,.6)),
+		url(http://static1.squarespace.com/static/54ac4287e4b03d35acdc4bb7/t/576ce35ee4fcb5e5c078df04/1466753894963/);
+	background-size: cover;
+	background-repeat: no-repeat, no-repeat;
+	background-position: center, center;
+	img {
+		@include size(20em);
 	}
 }

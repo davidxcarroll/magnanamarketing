@@ -3,7 +3,6 @@
 
 .tile {
 	display: inline-block;
-	font-family: $font-tile;
 	color: $purple;
 	background-color: $grey;
 	border-radius: .2em;
@@ -11,12 +10,19 @@
 							inset 0 .2em 0 $white,
 							inset 0 -.2em 0 darken($grey, 10),
 							0 .1em 0 $purple,
-							0 .2em 0 rgba(0,0,0,.1);
+							0 .2em 0 rgba(92,87,104,.2);
 	p {
 		@include margin(0);
 		@include pad(0);
+		font-family: $font-tile;
+		font-weight: 100;
 		text-shadow: 0 .05em 0 $white;
 	}
+}
+
+.tile-large {
+	display: inline-block;
+	font-size: 3em;
 }
 
 .bg-yellow-texture {
@@ -27,6 +33,10 @@
 
 .bg-purple {
 	background-color: $purple-3;
+}
+
+.bg-red {
+	background-color: $red;
 }
 
 // .hide {
