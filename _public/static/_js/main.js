@@ -74,7 +74,7 @@ bg.style.backgroundSize = "250%";
 var containerWidth = bg.offsetWidth
 var containerHeight = bg.offsetHeight
 window.addEventListener('mousemove', function(e) {
-    var amountX = -(e.pageX / containerWidth) * 100
-    var amountY = -(e.pageY / containerHeight) * 100
-    bg.style.backgroundPosition = amountX + 'px ' + amountY + 'px'
+    var amountX = (e.pageX / 500)
+    var amountY = (e.pageY / 250)
+    bg.style.backgroundPosition = amountX + '% ' + amountY + '%'
 })
