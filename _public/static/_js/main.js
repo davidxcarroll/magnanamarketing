@@ -68,9 +68,10 @@
 
 // ================================================================================
 
-// Example of moving background on word theme
+// INTERACTIVE BACKGROUND
+
 var bg = document.querySelector('.theme-feature')
-bg.style.backgroundSize = "250%";
+bg.style.backgroundSize = "200%";
 var containerWidth = bg.offsetWidth
 var containerHeight = bg.offsetHeight
 window.addEventListener('mousemove', function(e) {
@@ -78,3 +79,5 @@ window.addEventListener('mousemove', function(e) {
     var amountY = (e.pageY / 250)
     bg.style.backgroundPosition = amountX + '% ' + amountY + '%'
 })
+
+
