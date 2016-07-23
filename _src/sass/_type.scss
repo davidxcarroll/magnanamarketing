@@ -68,7 +68,7 @@ h3 {
 	}
 	@include media(max-width $tablet min-width $mobile) {
 		font-size: 2.6em;
-		line-height: .5em;
+		line-height: 1em;
 	}
 	@include media(max-width $mobile) {
 		font-size: 2em;

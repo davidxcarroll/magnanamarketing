@@ -576,6 +576,9 @@ picture {
 .margin-big-right {
   margin-right: 4em; }
 
+.center {
+  text-align: center; }
+
 .inner {
   max-width: 68em;
   margin-left: auto;
@@ -591,98 +594,6 @@ picture {
   @media screen and (max-width: 1100px) {
     .inner {
       padding: 1em; } }
-
-.center, .nan-themes li {
-  text-align: center; }
-
-.hero-title {
-  position: absolute;
-  right: 0; }
-  @media screen and (min-width: 768px) {
-    .hero-title {
-      width: 25em;
-      top: 0; } }
-  @media screen and (max-width: 768px) {
-    .hero-title {
-      top: 0; } }
-
-.hero-phone-title {
-  position: absolute;
-  right: 0; }
-  @media screen and (min-width: 768px) {
-    .hero-phone-title {
-      width: 25em;
-      bottom: 10em; } }
-  @media screen and (max-width: 768px) {
-    .hero-phone-title {
-      bottom: 2em; } }
-
-.hero .content {
-  position: relative;
-  z-index: 1;
-  margin-right: auto;
-  margin-left: auto; }
-  @media screen and (min-width: 768px) {
-    .hero .content {
-      width: 40em;
-      padding-top: 0.2em; } }
-  @media screen and (max-width: 768px) and (min-width: 420px) {
-    .hero .content {
-      width: 22em;
-      padding-top: 5em; } }
-  @media screen and (max-width: 420px) {
-    .hero .content {
-      width: 18em;
-      padding-top: 4em; } }
-
-.hero .content-phone {
-  position: relative;
-  z-index: 1;
-  margin-right: auto;
-  margin-bottom: -4em;
-  margin-left: auto; }
-  @media screen and (min-width: 768px) {
-    .hero .content-phone {
-      width: 48em;
-      padding-top: 0.2em; } }
-  @media screen and (max-width: 768px) and (min-width: 420px) {
-    .hero .content-phone {
-      width: 22em;
-      padding-top: 5em; } }
-  @media screen and (max-width: 420px) {
-    .hero .content-phone {
-      width: 18em;
-      padding-top: 4em; } }
-
-.hero-phone {
-  position: relative; }
-
-.hero-phone-screenshot {
-  height: auto;
-  width: 263px;
-  position: absolute;
-  top: 92px;
-  left: 31px;
-  z-index: -1; }
-
-.hero-top .inner {
-  padding-bottom: 0; }
-
-.hero-bottom {
-  padding-top: 5em;
-  padding-bottom: 2em; }
-
-.hero .content h1 {
-  padding: 0; }
-  @media screen and (min-width: 768px) {
-    .hero .content h1 {
-      margin-bottom: 0.2em; } }
-  @media screen and (max-width: 768px) and (min-width: 420px) {
-    .hero .content h1 {
-      margin-bottom: 0.4em; } }
-  @media screen and (max-width: 420px) {
-    .hero .content h1 {
-      margin-bottom: 0.2em; } }
 
 @media screen and (min-width: 768px) {
   .tile {
@@ -702,6 +613,118 @@ picture {
     padding: 0 0.5em;
     font-size: 1em; } }
 
+.hero .content {
+  position: relative;
+  z-index: 1;
+  margin-right: auto;
+  margin-left: auto; }
+  @media screen and (min-width: 768px) {
+    .hero .content {
+      width: 40em;
+      padding-top: 0.2em; } }
+  @media screen and (max-width: 768px) and (min-width: 420px) {
+    .hero .content {
+      width: 22em;
+      padding-top: 5em; } }
+  @media screen and (max-width: 420px) {
+    .hero .content {
+      width: 18em;
+      padding-top: 4em; } }
+
+@media screen and (min-width: 1100px) {
+  .hero .content-phone {
+    margin-right: auto;
+    margin-bottom: -4em;
+    margin-left: auto;
+    padding-top: 0.2em; } }
+
+@media screen and (max-width: 1100px) and (min-width: 420px) {
+  .hero .content-phone {
+    margin-right: auto;
+    margin-bottom: -1em;
+    margin-left: auto;
+    padding-top: 2em; } }
+
+@media screen and (min-width: 768px) {
+  .hero .content-phone {
+    width: 48em;
+    padding-top: 2em; } }
+
+@media screen and (max-width: 768px) {
+  .hero .content-phone {
+    width: 100%;
+    text-align: center; } }
+
+@media screen and (max-width: 420px) {
+  .hero .content-phone {
+    width: 18em;
+    margin-right: auto;
+    margin-bottom: -3em;
+    margin-left: auto;
+    padding-top: 4em; } }
+
+@media screen and (min-width: 768px) {
+  .hero-phone-title {
+    width: 25em;
+    position: absolute;
+    right: 0;
+    bottom: 10em; } }
+
+@media screen and (max-width: 768px) {
+  .hero-phone-title {
+    margin-right: auto;
+    margin-bottom: 2em;
+    margin-left: auto; }
+    .hero-phone-title .hero-app {
+      margin: 1em auto; } }
+
+.hero-phone-img {
+  position: relative; }
+  @media screen and (max-width: 420px) {
+    .hero-phone-img {
+      width: 16em;
+      margin-right: auto;
+      margin-left: auto; } }
+
+.hero-phone-screenshot {
+  position: absolute;
+  z-index: -1; }
+  @media screen and (min-width: 768px) {
+    .hero-phone-screenshot {
+      height: auto;
+      width: 263px;
+      top: 92px;
+      left: 31px; } }
+  @media screen and (max-width: 768px) {
+    .hero-phone-screenshot {
+      height: auto;
+      width: 263px;
+      margin-right: auto;
+      margin-left: auto;
+      top: 92px;
+      left: 10px;
+      right: 0; } }
+  @media screen and (max-width: 420px) {
+    .hero-phone-screenshot {
+      height: auto;
+      width: 214px;
+      margin-right: auto;
+      margin-left: auto;
+      top: 75px;
+      left: 8px; } }
+
+.hero-phone h1 {
+  padding: 0; }
+  @media screen and (min-width: 768px) {
+    .hero-phone h1 {
+      margin-bottom: 0.2em; } }
+  @media screen and (max-width: 768px) and (min-width: 420px) {
+    .hero-phone h1 {
+      margin-bottom: 0.4em; } }
+  @media screen and (max-width: 420px) {
+    .hero-phone h1 {
+      margin-bottom: 0.2em; } }
+
 @media screen and (min-width: 768px) {
   .hero-app {
     width: 14em;
@@ -718,18 +741,73 @@ picture {
     width: 6em;
     margin-top: 0.5em; } }
 
+.hero-nan {
+  padding-top: 5em;
+  padding-bottom: 2em; }
+
 @media screen and (min-width: 768px) {
-  .hero-nan {
+  .hero-nan-img {
     width: 24em;
     margin-top: 4em; } }
 
 @media screen and (max-width: 768px) and (min-width: 420px) {
-  .hero-nan {
+  .hero-nan-img {
     width: 10em; } }
 
 @media screen and (max-width: 420px) {
-  .hero-nan {
+  .hero-nan-img {
     width: 8em; } }
+
+.hero-nan-title {
+  position: absolute;
+  right: 0; }
+  @media screen and (min-width: 768px) {
+    .hero-nan-title {
+      width: 25em;
+      top: 0; } }
+  @media screen and (max-width: 768px) {
+    .hero-nan-title {
+      top: 0; } }
+
+@media screen and (min-width: 768px) {
+  .themes {
+    padding: 2em; } }
+
+@media screen and (max-width: 768px) {
+  .themes {
+    padding: 4em 0; } }
+
+.theme-feature {
+  margin: 2em auto;
+  border-radius: 100em;
+  box-shadow: inset 0 0.2em 0 0 rgba(92, 87, 104, 0.2);
+  background-image: url(http://static1.squarespace.com/static/54ac4287e4b03d35acdc4bb7/t/576ce35ee4fcb5e5c078df04/1466753894963/);
+  background-size: 250%;
+  transition: background-position .05s ease-out; }
+  @media screen and (min-width: 768px) {
+    .theme-feature {
+      height: 42em;
+      width: 42em; }
+      .theme-feature img {
+        height: 20em;
+        width: 20em; } }
+  @media screen and (max-width: 768px) and (min-width: 420px) {
+    .theme-feature {
+      height: auto;
+      width: 90%; }
+      .theme-feature .content {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto; } }
+  @media screen and (max-width: 768px) {
+    .theme-feature {
+      padding: 2em; }
+      .theme-feature .tiles {
+        display: none; } }
+  @media screen and (max-width: 420px) {
+    .theme-feature {
+      width: 100%;
+      padding: 2em; } }
 
 .bg-oval-white {
   position: relative; }
@@ -762,63 +840,6 @@ picture {
     top: -2.8em; }
   .bg-oval-bottom {
     bottom: -2.8em; } }
-
-.nan-themes {
-  max-width: 68em;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative; }
-  .nan-themes::after {
-    clear: both;
-    content: "";
-    display: table; }
-  .nan-themes li img {
-    height: 100%;
-    width: 100%; }
-  @media screen and (min-width: 420px) {
-    .nan-themes {
-      max-width: 96%; }
-      .nan-themes li {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 18.11388%; }
-        .nan-themes li:last-child {
-          margin-right: 0; }
-        .nan-themes li:nth-child(5n) {
-          margin-right: 0; }
-        .nan-themes li:nth-child(5n+1) {
-          clear: left; } }
-  @media screen and (max-width: 420px) {
-    .nan-themes {
-      width: 100%; }
-      .nan-themes li {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 48.82117%; }
-        .nan-themes li:last-child {
-          margin-right: 0; }
-        .nan-themes li:nth-child(2n) {
-          margin-right: 0; }
-        .nan-themes li:nth-child(2n+1) {
-          clear: left; } }
-
-.theme-feature {
-  height: 42em;
-  width: 42em;
-  margin-right: auto;
-  margin-left: auto;
-  border-radius: 100em;
-  transition: all .3s ease-out;
-  box-shadow: inset 0 0.2em 0 0 rgba(92, 87, 104, 0.2);
-  background-image: linear-gradient(to bottom, rgba(92, 87, 104, 0.2), rgba(92, 87, 104, 0.6)), url(http://static1.squarespace.com/static/54ac4287e4b03d35acdc4bb7/t/576ce35ee4fcb5e5c078df04/1466753894963/);
-  background-size: cover;
-  background-repeat: no-repeat, no-repeat;
-  background-position: center, center; }
-  .theme-feature img {
-    height: 20em;
-    width: 20em; }
 
 html {
   text-rendering: optimizeLegibility;
@@ -919,7 +940,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 768px) and (min-width: 420px) {
   h3 {
     font-size: 2.6em;
-    line-height: .5em; } }
+    line-height: 1em; } }
 
 @media screen and (max-width: 420px) {
   h3 {
