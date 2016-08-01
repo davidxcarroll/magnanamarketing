@@ -1,0 +1,310 @@
+// STRUCTURE
+// ============================================================
+
+// .outer {
+// 	@include media(min-width $desktop) {
+// 		@include pad(4em 0);
+// 	}
+// 	@include media(max-width $desktop) {
+// 		@include pad(1em 0);
+// 	}
+// }
+
+.inner {
+    @include outer-container;
+    @include media(min-width $desktop) {
+        @include fill-parent;
+        @include pad(4em 0);
+    }
+    @include media(max-width $desktop) {
+        @include pad(null 1em);
+    }
+}
+
+// REPEATABLE ELEMENTS
+// ============================================================
+
+.tileWords span,
+.tile {
+    @include media(min-width $tablet) {
+        @include margin(.12em .02em);
+        @include pad(.2em .6em);
+        font-size: 1.6em;
+    }
+    @include media(max-width $tablet min-width $mobile) {
+        @include margin(.2em .01em);
+        @include pad(.1em .5em);
+        font-size: 1.2em;
+    }
+    @include media(max-width $mobile) {
+        @include margin(.2em .01em);
+        @include pad(0 .5em);
+        font-size: 1em;
+    }
+}
+
+// HERO - PHONE
+// ============================================================
+
+.hero .content {
+    position: relative;
+    z-index: 1;
+    @include margin(null auto);
+    @include media(min-width $tablet) {
+        @include size(40em null);
+        @include padding(.2em null null);
+    }
+    @include media(max-width $tablet min-width $mobile) {
+        @include size(22em null);
+        @include padding(5em null null);
+    }
+    @include media(max-width $mobile) {
+        @include size(18em null);
+        @include padding(4em null null);
+    }
+}
+
+.hero .content-phone {
+    @include media(min-width $desktop) {
+        @include margin(null auto -4em);
+        @include padding(.2em null null);
+    }
+    @include media(max-width $desktop min-width $mobile) {
+        @include margin(null auto -1em);
+        @include padding(2em null null);
+    }
+    @include media(min-width $tablet) {
+        @include size(48em null);
+        @include padding(2em null null);
+    }
+    @include media(max-width $tablet) {
+        @include fill-parent;
+        text-align: center;
+    }
+    @include media(max-width $mobile) {
+        @include size(18em null);
+        @include margin(null auto -3em);
+        @include padding(4em null null);
+    }
+}
+
+.hero-phone-title {
+    @include media(min-width $tablet) {
+        @include size(25em null);
+        position: absolute;
+        right: 0;
+        bottom: 10em;
+    }
+    @include media(max-width $tablet) {
+        @include margin(null auto 2em);
+        .hero-app {
+            @include margin(1em auto);
+        }
+    }
+}
+
+.hero-phone-img {
+    position: relative;
+    @include media(max-width $mobile) {
+        @include size(16em null);
+        @include margin(null auto);
+    }
+}
+
+.hero-phone-screenshot {
+    position: absolute;
+    z-index: -1;
+    @include media(min-width $tablet) {
+        @include size(263px auto);
+        top: 92px;
+        left: 31px;
+    }
+    @include media(max-width $tablet) {
+        @include size(263px auto);
+        @include margin(null auto);
+        top: 92px;
+        left: 10px;
+        right: 0;
+    }
+    @include media(max-width $mobile) {
+        @include size(214px auto);
+        @include margin(null auto);
+        top: 75px;
+        left: 8px;
+    }
+}
+
+.hero-phone h1 {
+    @include pad(0);
+    @include media(min-width $tablet) {
+        @include margin(null null .2em);
+    }
+    @include media(max-width $tablet min-width $mobile) {
+        @include margin(null null .4em);
+    }
+    @include media(max-width $mobile) {
+        @include margin(null null .2em);
+    }
+}
+
+.hero-app {
+    @include media(min-width $tablet) {
+        @include size(14em null);
+        @include margin(1em null null);
+        display: inline-block;
+    }
+    @include media(max-width $tablet min-width $mobile) {
+        @include size(10em null);
+        @include margin(.5em null null);
+    }
+    @include media(max-width $mobile) {
+        @include size(6em null);
+        @include margin(.5em null null);
+    }
+}
+
+// HERO - BIG NAN
+// ============================================================
+
+.hero-nan {
+    @include padding(5em null 2em);
+}
+
+.hero-nan-img {
+    @include media(min-width $tablet) {
+        @include size(24em null);
+        @include margin(4em null null);
+    }
+    @include media(max-width $tablet min-width $mobile) {
+        @include size(10em null);
+    }
+    @include media(max-width $mobile) {
+        @include size(8em null);
+    }
+}
+
+.hero-nan-title {
+    position: absolute;
+    right: 0;
+    @include media(min-width $tablet) {
+        @include size(25em null);
+        top: 0;
+    }
+    @include media(max-width $tablet) {
+        top: 0;
+    }
+}
+
+// THEME FEATURE
+// ============================================================
+
+.themes {
+    @include media(min-width $tablet) {
+        @include pad(2em null);
+    }
+    @include media(max-width $tablet) {
+        @include pad(4em 0);
+    }
+}
+
+.theme-feature {
+    @include margin(2em auto);
+    border-radius: 100em;
+    box-shadow: inset 0 .2em 0 0 rgba(92, 87, 104, .2);
+    background-image:url(http://static1.squarespace.com/static/54ac4287e4b03d35acdc4bb7/t/576ce35ee4fcb5e5c078df04/1466753894963/);
+    background-size: 250%;
+    transition: background-position .05s ease-out;
+    @include media(min-width $tablet) {
+        @include size(42em);
+        img {
+            @include size(20em);
+        }
+    }
+    @include media(max-width $tablet min-width $mobile) {
+        @include size(80% auto);
+        img {
+            @include size(20em);
+        }
+        .content {
+            @include size(80% null);
+            @include margin(null auto);
+        }
+    }
+    @include media(max-width $tablet) {
+        @include pad(null null 2em);
+        .tile-words {
+            display: none;
+        }
+    }
+    @include media(max-width $mobile) {
+        @include fill-parent;
+        @include pad(null null 2em);
+    }
+}
+
+// BACKGROUND OVAL
+// ============================================================
+
+.bg-oval-white {
+    position: relative;
+}
+
+.bg-oval {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+@include media(min-width $tablet) {
+    .bg-oval {
+        @include size(100% 6em);
+        img {
+            @include size(100% 6em);
+        }
+    }
+    .bg-oval-top {
+        top: -5.8em;
+    }
+    .bg-oval-bottom {
+        bottom: -5.8em;
+    }
+}
+@include media(max-width $tablet) {
+    .bg-oval {
+        @include size(100% 3em);
+        img {
+            @include size(100% 3em);
+        }
+    }
+    .bg-oval-top {
+        top: -2.8em;
+    }
+    .bg-oval-bottom {
+        bottom: -2.8em;
+    }
+}
+
+// .nan-themes {
+//     @include outer-container;
+//     position: relative;
+//     li {
+//         @extend .center;
+//         img {
+//             @include size(100%);
+//         }
+//     }
+//     @include media(min-width $mobile) {
+//         max-width: 96%;
+//         li {
+//             @include span-columns(2.4);
+//             @include omega(5n);
+//         }
+//     }
+//     @include media(max-width $mobile) {
+//         @include fill-parent;
+//         li {
+//             @include span-columns(6);
+//             @include omega(2n);
+//         }
+//     }
+// }
