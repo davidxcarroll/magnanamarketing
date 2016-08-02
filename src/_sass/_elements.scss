@@ -33,11 +33,23 @@ hr {
 	}
 }
 
+@keyframes highlight {
+	from { @include size(2em 1.8em); opacity: 0; }
+	to { @include size(2.3em 1.8em); opacity: 1; }
+}
+
+@keyframes highlight-fade {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
 .tile-highlight {
 	display: inline-block;
 	@include size(2.3em 1.8em);
 	border-radius: .2em;
 	background-color: transparentize($purple, .5);
+	animation: highlight .1s 1;
+	animation-timing-function: ease-in;
 }
 
 p.tile-words {
