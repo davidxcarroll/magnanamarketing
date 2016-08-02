@@ -13,11 +13,16 @@
 .inner {
     @include outer-container;
     @include media(min-width $desktop) {
-        @include fill-parent;
-        @include pad(4em 0);
+        @include pad(4em null);
     }
-    @include media(max-width $desktop) {
-        @include pad(null 1em);
+    @include media(max-width $desktop min-width $tablet) {
+        @include pad(4em 2em);
+    }
+    @include media(max-width $tablet min-width $landscape) {
+        @include pad(2em 2em);
+    }
+    @include media(max-width $landscape) {
+        @include pad(2em 1em);
     }
 }
 
@@ -137,13 +142,13 @@
 .hero-phone h1 {
     @include pad(0);
     @include media(min-width $tablet) {
-        @include margin(null null .2em);
+        // @include margin(null null .2em);
     }
     @include media(max-width $tablet min-width $mobile) {
-        @include margin(null null .4em);
+        // @include margin(null null .4em);
     }
     @include media(max-width $mobile) {
-        @include margin(null null .2em);
+        // @include margin(null null .2em);
     }
 }
 
@@ -195,50 +200,170 @@
     }
 }
 
+// OVERVIEW
+// ============================================================
+
+.overview {
+    @include media(min-width $desktop) {}
+}
+
+// GAMEPLAY
+// ============================================================
+
+.gameplay {
+    h5,p {
+        // color: $white;
+    }
+    .content-gameplay {
+        @include media(min-width $tablet) {
+            @include span-columns(6);
+        }
+    }
+    .content-gameplay-2 {
+        @include media(min-width $tablet) {
+            @include span-columns(6);
+            @include omega;
+        }
+    }
+    .content-gameplay-visual {
+        @include media(min-width $tablet) {
+            @include span-columns(6);
+            @include omega;
+            img {
+                @include size(10em);
+            }
+        }
+    }
+}
+
+// VOTING
+// ============================================================
+
+.voting {
+    .content-voting {
+        @include media(min-width $tablet) {
+            @include span-columns(6);
+            @include omega;
+        }
+    }
+    .content-voting-visual {
+        @include media(min-width $tablet) {
+            @include span-columns(6);
+            img {
+                @include size(10em);
+            }
+        }
+    }
+}
+
 // THEME FEATURE
 // ============================================================
 
 .themes {
-    @include media(min-width $tablet) {
-        @include pad(2em null);
+    overflow: hidden;
+    @include media(min-width $desktop) {
+        @include margin(2em null null);
     }
-    @include media(max-width $tablet) {
-        @include pad(4em 0);
+}
+
+.content-theme {
+    @include media(min-width $desktop) {
+        @include span-columns(4);
+    }
+    @include media(max-width $desktop min-width $tablet) {
+        @include span-columns(8);
+        @include shift(2);
+        text-align: center;
     }
 }
 
 .theme-feature {
-    @include margin(2em auto);
-    border-radius: 100em;
-    box-shadow: inset 0 .2em 0 0 rgba(92, 87, 104, .2);
-    background-image:url(http://static1.squarespace.com/static/54ac4287e4b03d35acdc4bb7/t/576ce35ee4fcb5e5c078df04/1466753894963/);
-    background-size: 250%;
-    transition: background-position .05s ease-out;
-    @include media(min-width $tablet) {
-        @include size(42em);
-        img {
-            @include size(20em);
-        }
+    position: relative;
+    @include media(min-width $desktop) {
+        @include span-columns(8);
+        @include omega;
+        @include margin(-4em null null);
+        @include pad(4em 0 3em);
     }
-    @include media(max-width $tablet min-width $mobile) {
-        @include size(80% auto);
-        img {
-            @include size(20em);
-        }
-        .content {
-            @include size(80% null);
-            @include margin(null auto);
-        }
+    @include media(max-width $desktop min-width $landscape) {
+        @include span-columns(12);
+        @include margin(2em null null);
+        @include pad(3em 0 2em);
     }
-    @include media(max-width $tablet) {
-        @include pad(null null 2em);
-        .tile-words {
-            display: none;
-        }
-    }
-    @include media(max-width $mobile) {
+    @include media(max-width $landscape) {
         @include fill-parent;
         @include pad(null null 2em);
+    }
+}
+
+.theme-feature-nan {
+    @include media(min-width $desktop) {
+        @include span-columns(6);
+        img {
+            @include size(20em);
+        }
+    }
+    @include media(max-width $desktop min-width $landscape) {
+        @include span-columns(5);
+        text-align: right;
+        img {
+            @include size(18em);
+        }
+    }
+    @include media(max-width $landscape) {
+        text-align: center;
+    }
+}
+
+.theme-feature-tiles {
+    @include media(min-width $desktop) {
+        @include span-columns(6);
+        @include omega;
+    }
+    @include media(max-width $desktop min-width $landscape) {
+        @include span-columns(6);
+        @include omega;
+    }
+    @include media(max-width $landscape) {
+        text-align: center;
+    }
+}
+
+.theme-feature-bg {
+    box-shadow: inset 0 .2em 0 0 rgba(92, 87, 104, .2);
+    background-image:url(http://static1.squarespace.com/static/54ac4287e4b03d35acdc4bb7/t/576ce35ee4fcb5e5c078df04/1466753894963/);
+    transition: background-position .05s ease-out;
+
+    @include media(min-width $desktop) {
+        @include size(110% auto);
+        @include margin(auto);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        border-radius: 2em;
+        // background-size: 250%;
+    }
+    @include media(max-width $desktop min-width $landscape) {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        border-radius: 2em;
+        // background-size: 250%;
+    }
+    @include media(max-width $landscape) {
+        @include margin(null -1em);
+        position: absolute;
+        top: 10em;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: -1;
     }
 }
 
@@ -266,7 +391,7 @@
         top: -5.8em;
     }
     .bg-oval-bottom {
-        bottom: -5.8em;
+        // bottom: -5.8em;
     }
 }
 @include media(max-width $tablet) {
@@ -280,31 +405,6 @@
         top: -2.8em;
     }
     .bg-oval-bottom {
-        bottom: -2.8em;
+        // bottom: -2.8em;
     }
 }
-
-// .nan-themes {
-//     @include outer-container;
-//     position: relative;
-//     li {
-//         @extend .center;
-//         img {
-//             @include size(100%);
-//         }
-//     }
-//     @include media(min-width $mobile) {
-//         max-width: 96%;
-//         li {
-//             @include span-columns(2.4);
-//             @include omega(5n);
-//         }
-//     }
-//     @include media(max-width $mobile) {
-//         @include fill-parent;
-//         li {
-//             @include span-columns(6);
-//             @include omega(2n);
-//         }
-//     }
-// }

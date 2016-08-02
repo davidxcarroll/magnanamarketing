@@ -2,36 +2,59 @@
 //- SECTION ONE
 //- ============================================================
 
-div.outer.bg-oval-white.themes
+div.outer.overview.bg-oval-white
   div.bg-oval.bg-oval-top
     img(src="img/bg-oval-white-top.svg")
   div.inner
+
     div.content.center
-      h2= "A slippery battle of wits"
+      h2= "A battle of wits"
     div.content.center.margin-top
       h5= "Be clever, become popular, win it all!"
-    hr.margin-big-top
     div.content.center.margin-big-top
+      img(src="img/screenshots-temp.png")
+
+div.outer.gameplay.bg-grey
+  div.inner
+
+    div.content.content-gameplay
       h5= "Don't let the chips fall"
-    div.content.center.margin-top
-      h6= "Each second counts as you craft the most interesting, suggestive or funniest phrase. Score chips for speed and for using bonus words, but the quality of your phrase is what will earn you votes from friends or random strangers."
-    hr.margin-big-top
-    div.content.center.margin-big-top
+      p.margin-top= "Each second counts as you craft the most interesting, suggestive or funniest phrase. Score chips for speed and for using bonus words, but the quality of your phrase is what will earn you votes from friends or random strangers."
+    div.content.content-gameplay-2
       h5= "Serious word play"
-    div.content.center.margin-top
-      h6= "All seven of you vote for your favorite anonymous phrase. When all the votes are in, scores are multiplied, and the curtain falls to reveal the winner. Didn’t think your mom was that clever, huh? Win three rounds, get the trophy and become the champ!"
-    hr.margin-big-top
-    div.content.center.margin-big-top
+      p.margin-top= "All seven of you vote for your favorite anonymous phrase. When all the votes are in, scores are multiplied, and the curtain falls to reveal the winner. Didn’t think your mom was that clever, huh? Win three rounds, get the trophy and become the champ!"
+
+//- div.outer.voting.bg-grey
+//-   div.inner
+
+//-     div.content.content-voting-visual
+//-       img(src="img/screenshot-temp.png")
+//-     div.content.content-voting
+//-       h5= "Serious word play"
+//-       p.margin-top= "All seven of you vote for your favorite anonymous phrase. When all the votes are in, scores are multiplied, and the curtain falls to reveal the winner. Didn’t think your mom was that clever, huh? Win three rounds, get the trophy and become the champ!"
+
+div.outer.themes
+  div.inner
+
+    div.content.content-theme
       h5= "Flip the script"
-    div.content.center.margin-top
-      h6= "Choose from a variety of themes to play with different words. Music, sports, current events, and more. Keep an eye out for updates as new themes ship regularly."
-    div.content.theme-feature.center
-      img(src= "img/nan-basic.svg")
-      div.content.center
+      p.content.margin-top= "Choose from a variety of themes to play with different words. Music, sports, current events, and more. Keep an eye out for updates as new themes ship regularly."
+    div.content.theme-feature
+      div.theme-feature-nan
+        img(src= "img/nan-basic.svg")
+      div.content.theme-feature-tiles
         p.tile.tile-large= "Basic"
-        p.tile-words= ""
-    hr.margin-big-top
-    div.content.center.margin-big-top
-      h2= "The more you play the closer you’ll be to mastering the art of creating good phrases, fast!"
+        p.tile-words.margin-top= "quisque eget odio ac lectus vestibulum faucibus eget in metus pellentesque faucibus vestibulum eget odio"
+      div.content.theme-feature-bg
+
+hr
+
+div.outer
+  div.inner
+
+    div.content.center
+      h2= "Master the art of creating good phrases, fast!"
+
   div.bg-oval.bg-oval-bottom
     img(src="img/bg-oval-white-bottom.svg")
+
