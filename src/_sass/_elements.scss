@@ -17,11 +17,20 @@ hr {
 	color: $purple;
 	background-color: $grey;
 	border-radius: .2em;
-	box-shadow: inset 0 0 0 .1em $purple,
-							inset 0 .2em 0 $white,
-							inset 0 -.2em 0 darken($grey, 10),
-							0 .1em 0 $purple,
-							0 .2em 0 rgba(92,87,104,.2);
+	@include media(min-width $landscape) {
+		box-shadow: inset 0 0 0 3px $purple,
+							inset 0 6px 0 $white,
+							inset 0 -6px 0 darken($grey, 10),
+							0 3px 0 $purple,
+							0 6px 0 rgba(92,87,104,.2);
+	}
+	@include media(max-width $landscape) {
+		box-shadow: inset 0 0 0 2px $purple,
+							inset 0 4px 0 $white,
+							inset 0 -4px 0 darken($grey, 10),
+							0 2px 0 $purple,
+							0 4px 0 rgba(92,87,104,.2);
+	}
 }
 
 p.tile-words {
