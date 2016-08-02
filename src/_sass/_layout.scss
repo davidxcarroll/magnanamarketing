@@ -229,6 +229,9 @@
             @include span-columns(6);
             @include omega;
         }
+        @include media(max-width $tablet) {
+            @include margin(2em null);
+        }
     }
     .content-gameplay-visual {
         @include media(min-width $tablet) {
