@@ -10,6 +10,26 @@ var text = $(this).text().split(' ');
   $(this).html(text.join(' '));
   });
 
+// Maxime Caly
+// $('.tile-words').each(function(){
+// var text = $(this).text().split(' ')
+// var html = ''
+//   text.forEach(function(el){
+//    html += '<span class="tile word-' + el + '">' + el + '</span>'
+//   })
+//   $(this).html(html)
+// })
+
+// SORTABLE JQUERY UI
+
+$( function() {
+  $( ".tile-words" ).sortable({
+    placeholder: "tile-highlight"
+  });
+  $( ".tile-words" ).disableSelection();
+} );
+
+
 // INTERACTIVE THEME BG
 
 // http://codepen.io/chrisboon27/pen/rEDIC

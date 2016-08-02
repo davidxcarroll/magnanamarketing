@@ -33,8 +33,18 @@ hr {
 	}
 }
 
+.tile-highlight {
+	display: inline-block;
+	@include size(2.3em 1.8em);
+	border-radius: .2em;
+	background-color: transparentize($purple, .5);
+}
+
 p.tile-words {
 	@include margin(null null 0);
+	&:hover {
+		cursor: move;
+	}
 }
 
 .tile-large {
