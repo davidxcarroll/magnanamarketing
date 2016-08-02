@@ -40,8 +40,13 @@ p.tile-words {
 .tile-large {
 	@include margin(0);
 	@include pad(.1em .6em);
-	font-size: 3em;
 	line-height: 1.6em;
+	@include media(min-width $mobile) {
+		font-size: 3em;
+	}
+	@include media(max-width $mobile) {
+		font-size: 2em;
+	}
 }
 
 .bg-yellow-texture {
