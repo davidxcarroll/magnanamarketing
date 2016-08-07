@@ -209,12 +209,6 @@
     @include media(max-width $mobile) {
         @include pad(2em null null);
     }
-}
-
-// GAMEPLAY
-// ============================================================
-
-.gameplay {
     h5,p {
         // color: $white;
     }
@@ -241,6 +235,16 @@
             img {
                 @include size(10em);
             }
+        }
+    }
+}
+
+.content-gameplay,
+.content-gameplay-2 {
+    .content-bucket-img {
+        @include media(min-width $mobile) {
+            @include size(70% auto);
+            @include margin(0 auto);
         }
     }
 }
@@ -273,10 +277,17 @@
     @include media(min-width $desktop) {
         @include margin(2em null null);
     }
+    @include media(max-width $landscape) {
+        .inner {
+            @include pad(2em 0 0);
+        }
+    }
 }
 
 .content-theme {
-    text-align: center;
+    h5, p {
+        color: $white;
+    }
     @include media(min-width $desktop) {
         @include span-columns(4);
     }
@@ -284,14 +295,18 @@
         @include span-columns(8);
         @include shift(2);
     }
+    @include media(max-width $desktop) {
+        text-align: center;
+    }
 }
 
 .theme-feature {
     position: relative;
+    z-index: 2;
     @include media(min-width $desktop) {
         @include span-columns(8);
         @include omega;
-        @include margin(-4em null null);
+        // @include margin(-4em null null);
         @include pad(4em 0 3em);
     }
     @include media(max-width $desktop min-width $landscape) {
@@ -342,35 +357,29 @@
     box-shadow: inset 0 .2em 0 0 rgba(92, 87, 104, .2);
     background-size: cover;
     transition: background-position .05s ease-out;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
 
     @include media(min-width $desktop) {
-        @include size(110% auto);
+        @include size(100% auto);
         @include margin(auto);
-        position: absolute;
         top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        z-index: -1;
+        left: 2em;
         border-radius: 2em;
     }
     @include media(max-width $desktop min-width $landscape) {
-        position: absolute;
         top: 0;
-        bottom: 0;
         left: 0;
-        right: 0;
-        z-index: -1;
+        
         border-radius: 2em;
     }
     @include media(max-width $landscape) {
         @include margin(null -1em);
-        position: absolute;
         top: 10em;
-        bottom: 0;
         left: 0;
-        right: 0;
-        z-index: -1;
+        
     }
 }
 

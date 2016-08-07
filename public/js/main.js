@@ -24,7 +24,8 @@ var text = $(this).text().split(' ');
 
 $( function() {
   $( ".tile-words" ).sortable({
-    placeholder: "tile-highlight"
+    placeholder: "tile-highlight",
+    delay: 0
   });
   $( ".tile-words" ).disableSelection();
 } );
@@ -33,15 +34,15 @@ $( function() {
 // INTERACTIVE THEME BG
 
 // http://codepen.io/chrisboon27/pen/rEDIC
-$(document).ready(function() {
-	var movementStrength = 25;
-	var height = movementStrength / $(window).height();
-	var width = movementStrength / $(window).width();
-	$(".theme-feature-bg").mousemove(function(e){
-	          var pageX = e.pageX - ($(".theme-feature-bg").width() / 2);
-	          var pageY = e.pageY - ($(".theme-feature-bg").height() / 2);
-	          var newvalueX = width * pageX * -1;
-	          var newvalueY = height * pageY * -1;
-	          $('.theme-feature-bg').css("background-position", newvalueX+"px "+newvalueY+"px");
-	});
-});
+// $(document).ready(function() {
+// 	var movementStrength = 25;
+// 	var height = movementStrength / $(window).height();
+// 	var width = movementStrength / $(window).width();
+// 	$(".theme-feature-bg").mousemove(function(e){
+// 	          var pageX = e.pageX - ($(".theme-feature-bg").width() / 2);
+// 	          var pageY = e.pageY - ($(".theme-feature-bg").height() / 2);
+// 	          var newvalueX = width * pageX * -1;
+// 	          var newvalueY = height * pageY * -1;
+// 	          $('.theme-feature-bg').css("background-position", newvalueX+"px "+newvalueY+"px");
+// 	});
+// });

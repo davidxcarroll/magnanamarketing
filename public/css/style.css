@@ -772,45 +772,52 @@ picture {
   .overview {
     padding: 2em; } }
 
-.gameplay .content-gameplay {
+.overview .content-gameplay {
   text-align: center; }
   @media screen and (min-width: 800px) {
-    .gameplay .content-gameplay {
+    .overview .content-gameplay {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 48.82117%; }
-      .gameplay .content-gameplay:last-child {
+      .overview .content-gameplay:last-child {
         margin-right: 0; } }
 
-.gameplay .content-gameplay-2 {
+.overview .content-gameplay-2 {
   text-align: center; }
   @media screen and (min-width: 800px) {
-    .gameplay .content-gameplay-2 {
+    .overview .content-gameplay-2 {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 48.82117%;
       margin-right: 0; }
-      .gameplay .content-gameplay-2:last-child {
+      .overview .content-gameplay-2:last-child {
         margin-right: 0; } }
   @media screen and (max-width: 800px) {
-    .gameplay .content-gameplay-2 {
+    .overview .content-gameplay-2 {
       margin-top: 2em;
       margin-bottom: 2em; } }
 
 @media screen and (min-width: 800px) {
-  .gameplay .content-gameplay-visual {
+  .overview .content-gameplay-visual {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 48.82117%;
     margin-right: 0; }
-    .gameplay .content-gameplay-visual:last-child {
+    .overview .content-gameplay-visual:last-child {
       margin-right: 0; }
-    .gameplay .content-gameplay-visual img {
+    .overview .content-gameplay-visual img {
       height: 10em;
       width: 10em; } }
+
+@media screen and (min-width: 420px) {
+  .content-gameplay .content-bucket-img,
+  .content-gameplay-2 .content-bucket-img {
+    height: auto;
+    width: 70%;
+    margin: 0 auto; } }
 
 @media screen and (min-width: 800px) {
   .voting .content-voting {
@@ -839,29 +846,39 @@ picture {
   @media screen and (min-width: 1100px) {
     .themes {
       margin-top: 2em; } }
+  @media screen and (max-width: 600px) {
+    .themes .inner {
+      padding: 2em 0 0; } }
 
-.content-theme {
-  text-align: center; }
-  @media screen and (min-width: 1100px) {
-    .content-theme {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      .content-theme:last-child {
-        margin-right: 0; } }
-  @media screen and (max-width: 1100px) and (min-width: 800px) {
-    .content-theme {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 65.88078%;
-      margin-left: 17.05961%; }
-      .content-theme:last-child {
-        margin-right: 0; } }
+.content-theme h5, .content-theme p {
+  color: #fff; }
+
+@media screen and (min-width: 1100px) {
+  .content-theme {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    .content-theme:last-child {
+      margin-right: 0; } }
+
+@media screen and (max-width: 1100px) and (min-width: 800px) {
+  .content-theme {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%;
+    margin-left: 17.05961%; }
+    .content-theme:last-child {
+      margin-right: 0; } }
+
+@media screen and (max-width: 1100px) {
+  .content-theme {
+    text-align: center; } }
 
 .theme-feature {
-  position: relative; }
+  position: relative;
+  z-index: 2; }
   @media screen and (min-width: 1100px) {
     .theme-feature {
       float: left;
@@ -869,7 +886,6 @@ picture {
       margin-right: 2.35765%;
       width: 65.88078%;
       margin-right: 0;
-      margin-top: -4em;
       padding: 4em 0 3em; }
       .theme-feature:last-child {
         margin-right: 0; } }
@@ -944,38 +960,30 @@ picture {
 .theme-feature-bg {
   box-shadow: inset 0 0.2em 0 0 rgba(92, 87, 104, 0.2);
   background-size: cover;
-  transition: background-position .05s ease-out; }
+  transition: background-position .05s ease-out;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1; }
   @media screen and (min-width: 1100px) {
     .theme-feature-bg {
       height: auto;
-      width: 110%;
+      width: 100%;
       margin: auto;
-      position: absolute;
       top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      z-index: -1;
+      left: 2em;
       border-radius: 2em; } }
   @media screen and (max-width: 1100px) and (min-width: 600px) {
     .theme-feature-bg {
-      position: absolute;
       top: 0;
-      bottom: 0;
       left: 0;
-      right: 0;
-      z-index: -1;
       border-radius: 2em; } }
   @media screen and (max-width: 600px) {
     .theme-feature-bg {
       margin-right: -1em;
       margin-left: -1em;
-      position: absolute;
       top: 10em;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      z-index: -1; } }
+      left: 0; } }
 
 .content-theme-new {
   position: relative; }
@@ -1321,13 +1329,8 @@ hr {
   text-shadow: 0 0.05em 0 #fff;
   color: #5C5768;
   background-color: #F0F0F0;
-  border-radius: .2em; }
-  @media screen and (min-width: 600px) {
-    .tile {
-      box-shadow: inset 0 0 0 3px #5C5768, inset 0 6px 0 #fff, inset 0 -6px 0 #d7d7d7, 0 3px 0 #5C5768, 0 6px 0 rgba(92, 87, 104, 0.2); } }
-  @media screen and (max-width: 600px) {
-    .tile {
-      box-shadow: inset 0 0 0 2px #5C5768, inset 0 4px 0 #fff, inset 0 -4px 0 #d7d7d7, 0 2px 0 #5C5768, 0 4px 0 rgba(92, 87, 104, 0.2); } }
+  border-radius: .2em;
+  box-shadow: inset 0 0 0 2px #5C5768, inset 0 4px 0 #fff, inset 0 -4px 0 #d7d7d7, 0 2px 0 #5C5768, 0 4px 0 rgba(92, 87, 104, 0.2); }
 
 @keyframes highlight {
   from {
