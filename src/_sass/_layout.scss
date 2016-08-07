@@ -366,7 +366,7 @@
         @include size(100% auto);
         @include margin(auto);
         top: 0;
-        left: 2em;
+        left: 1em;
         border-radius: 2em;
     }
     @include media(max-width $desktop min-width $landscape) {
@@ -492,14 +492,16 @@
 // THEME FEATURE BACKGROUNDS
 // ============================================================
 
-.theme-feature-bg-jungle {
-    background-image: linear-gradient(0deg, transparentize($yellow-2, .5), transparentize($yellow, .8)),
-                      linear-gradient(0deg, transparentize($white, .5), transparentize($white, .8)),
+.theme-feature-bg-basic {
+    background-image: linear-gradient(0deg, transparentize($purple-2, .6), transparentize($purple-2, .6)),
                       url("http://static1.squarespace.com/static/54ac4287e4b03d35acdc4bb7/t/576ce35ee4fcb5e5c078df04/1466753894963/");
 }
+.theme-feature-bg-music {
+    background-image: linear-gradient(0deg, transparentize($purple-2, .6), transparentize($purple-2, .6)),
+                      url("../img/bg-music-temp.jpg");
+}
 .theme-feature-bg-election {
-    background-image: linear-gradient(-90deg, transparentize($red, .5), transparentize($blue, .5)),
-                      linear-gradient(-90deg, transparentize($white, .5), transparentize($white, .5)),
+    background-image: linear-gradient(0deg, transparentize($purple-2, .6), transparentize($purple-2, .6)),
                       url("http://swvateapartyab.org/wp-content/uploads/2011/06/USA_Independence_Day_wallpaper_20072.jpg");
 }
 
